@@ -24,39 +24,23 @@ For Python:
 
 3. Set up environment variables
 Create a .env file (this is not tracked in Git):
-
-ini
-Copy
-Edit
-DISCORD_TOKEN=your_bot_token_here
+<pre><code>DISCORD_TOKEN=your_bot_token_here</code></pre>
 Also ensure .env is listed in .gitignore so it doesn’t get pushed.
 
 4. Run the bot
-Node.js:
-
-bash
-Copy
-Edit
-node index.js
-Or:
-
-bash
-Copy
-Edit
-npm start
 Python (if applicable):
+<pre><code>python main.py</code></pre>
 
-bash
-Copy
-Edit
-python bot.py
 🛠️ Usage
 Once the bot is running, invite it to your Discord server and use commands like:
 
 Command	Description
-!ping	Bot responds with “pong!”
-!echo <msg>	Bot repeats the message you type
-!help	Lists all available commands
+!hello	Bot responds with “Hello @mention!”
+!dm <msg>	 Bot send you direct message
+!reply  Bot replies with "This is a reply to your message!"
+!poll <msg>  Bot creates a poll with title <msg> and reaction emojies
+!assign  Bot assigns a role to the user
+!remove  Bot removes the user's role
 
 (List actual commands implemented in your bot here.)
 
@@ -91,4 +75,5 @@ MIT License
 👤 Contact
 Built by Yash Khawale.
 Connect with me via GitHub or other platforms.
+
 
