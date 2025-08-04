@@ -15,24 +15,13 @@ Easy to customize and extend
 
 🚀 Getting Started
 1. Clone the repo
-bash
-Copy
-Edit
-git clone https://github.com/YashKhawale/First-Discord-Bot.git
-cd First-Discord-Bot
+<pre><code>git clone https://github.com/YashKhawale/First-Discord-Bot.git
+cd First-Discord-Bot</code></pre>
+
 2. Install dependencies
-For JavaScript/Node.js:
-
-bash
-Copy
-Edit
-npm install
 For Python:
+<pre><code>pip install -r requirements.txt</code></pre>
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
 3. Set up environment variables
 Create a .env file (this is not tracked in Git):
 
@@ -102,3 +91,4 @@ MIT License
 👤 Contact
 Built by Yash Khawale.
 Connect with me via GitHub or other platforms.
+
